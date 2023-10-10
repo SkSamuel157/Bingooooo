@@ -2,7 +2,7 @@ window.onload = comecar;
 
 function comecar() {
     novaCartela(); //cria uma nova cartela
-    document.getElementById("recarregar").onclick = outraCartela(); //Vai gerar uma nova cartela quando clicar no "CLIQUE AQUI";
+    document.getElementById("recarregar").onclick = outraCartela; //Vai gerar uma nova cartela quando clicar no "CLIQUE AQUI";
 }
 
 function novaCartela() {
